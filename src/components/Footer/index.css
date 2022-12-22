@@ -1,0 +1,18 @@
+.fff{
+    width: 30% !important;
+}
+@media only screen and (max-width: 1200px) {
+    .fff{
+        width: 35% !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .fff{
+        width: 45% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .fff{
+        width: 100% !important;
+    }
+}

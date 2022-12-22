@@ -1,0 +1,40 @@
+.main-div {
+  width: 100%;
+  box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 26.1691px;
+  padding: 10px
+}
+
+.controls-wrapper {
+  width: 90%;
+}
+
+.carousel-wrapper {
+  width: 80%;
+}
+
+.Apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sc-bczRLJ {
+  outline: none;
+  background: #FFF !important;
+  color: black !important;
+}
+
+.rec {
+  color: #333333;
+}
+
+.rec-pagination {
+  display: none !important;
+}
+
+@media only screen (max-width: 590px) {
+  .loss {
+    width: 50% !important;
+  }
+}

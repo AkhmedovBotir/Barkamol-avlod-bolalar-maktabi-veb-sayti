@@ -1,0 +1,24 @@
+  
+  .controls-wrapper {
+    width: 90%;
+  }
+  
+  .carousel-wrapper {
+    width: 80%;
+  }
+  .Apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sc-bczRLJ{
+    outline: none;
+    background: #FFF !important;
+    color: black !important;
+  }
+  .rec{
+    color: #333333;
+  }
+  .rec-pagination{
+    display: none !important;
+  }

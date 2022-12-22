@@ -1,0 +1,18 @@
+.sfs{
+    position: relative;
+    width: 23rem;
+    height: 23rem;
+    top: 0;
+}
+.sdf{
+    position: absolute;
+    top: -22%;
+    margin-left: 7%;
+    width: 70%;
+}
+
+@media (max-width: 990px) {
+    .sdss{
+        margin-top: 120px;
+    }
+}

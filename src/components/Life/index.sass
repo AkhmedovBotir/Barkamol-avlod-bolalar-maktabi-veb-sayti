@@ -1,0 +1,250 @@
+.aboutjs
+    background-size: cover
+    display: flex
+    flex-direction: row
+    padding: 0 30vh
+    // background-image: url('../../img/aboutbg.png')
+    background-size: cover
+    background-attachment: fixed
+    margin: 3px 0
+
+    .aboutmenus
+        position: absolute
+        width: 90%
+        .aboutmenu
+            width: 18%
+            display: flex
+            position: sticky
+            flex-direction: column
+            justify-content: space-evenly
+            a
+
+                display: flex
+                align-items: center
+                margin: 10px
+                border: #d6d6d659 1px solid
+                padding: 15px
+                border-radius: 20px
+                text-decoration: none
+                font-size: 18px
+                color: black
+                font-weight: 600
+                &:hover
+                    border-radius: 50px
+                    transition: .5s ease all
+                    background-color: #fff
+                    box-shadow: 1px 1px 10px 1px #9c9c9c
+                img
+                    margin-right: 15px
+                    width: 40px
+            .active
+                border-radius: 50px
+                box-shadow: 1px 1px 10px 1px #9c9c9c
+                color: #468cde !important
+                transition: .5s ease all
+                position: relative
+                left: 20px
+                background-color: #fff
+
+        .aboutmenuse
+            width: 72.2%
+            display: flex
+            position: fixed
+            top: 83px
+            background-color: #fff
+            flex-direction: row
+            justify-content: space-evenly
+            border: #d6d6d659 1px solid
+            a
+                display: flex
+                align-items: center
+                font-weight: 700
+                margin: 10px
+                border: #d6d6d659 1px solid
+                padding: 10px
+                text-decoration: none
+                font-size: 15px
+                color: black
+                border-radius: 20px
+                &:hover
+                    transition: .5s ease all
+                    background-color: #fff
+                    box-shadow: 1px 1px 10px 1px #9c9c9c
+                img
+                    margin-right: 15px
+                    width: 30px
+            .active
+                border-radius: 20px
+                box-shadow: 1px 1px 10px 1px #9c9c9c
+                color: #468cde
+                transition: .5s ease all
+                position: relative
+                left: 20px
+                background-color: #fff
+
+    .aboutcontent
+        width: 100%
+        .aboutbg
+            box-shadow: 1px 1px 10px 2px
+            border-radius: 20px
+            width: 70%
+            margin-top: 1%
+            margin-left: 28%
+            height: 600px
+        #haqida
+            .abouth2
+                text-align: center
+                font-size: 35px
+                color: #468cde
+            .aboutspan
+                font-size: 20px
+                padding: 0 60px
+        #maqsad
+            h2
+                text-transform: uppercase
+                text-align: center
+                font-size: 35px
+                color: #468cde
+            ul
+                li
+                    list-style: circle
+                    font-size: 17px
+                    line-height: 25px
+            span
+                font-size: 20px
+            img
+                width: 99.5%
+                margin: 20px 0
+        #iqtidor
+            h2
+                text-align: center
+                font-size: 35px
+                color: #468cde
+            .oquviq
+                .direktorCards
+                    // width: 1200px
+                    background-image: url('../../img/imgrah.png')
+                    background-size: cover
+                    background-blend-mode: soft-light
+                    border-radius: 30px
+                    margin: 50px 10vh
+                    .cardd
+                        padding: 50px
+                        display: flex
+                        align-items: center
+                        img
+                            border-radius: 20px
+                            width: 150px
+                        .cardText
+                            margin-left: 50px
+                            color: white
+                            .name
+                                font-size: 35px
+                                font-weight: 700
+                            .lavozim
+                                font-size: 20px
+                            .tel
+                                font-weight: 700
+                                font-size: 25px
+                                .phone
+                                    font-weight: normal
+                                    color: white
+                                    text-decoration: none
+                            .qabul
+                                width: 70%
+                                margin: 10px 0
+                                font-weight: 700
+                                font-size: 20px
+                                .kun
+                                    font-weight: normal
+                            .email
+                                font-weight: 700
+                                font-size: 25px
+                                .mail
+                                    color: white
+                                    text-decoration: none
+                                    font-weight: normal
+            .togmenu
+                display: flex
+                align-items: center
+                flex-direction: column
+                .togCard
+                    display: flex
+                    justify-content: space-around
+                    align-items: center
+                    width: 850px
+                    margin: 20px 0
+                    img
+                        width: 250px
+                    .cardTog
+                        display: flex
+                        flex-direction: column
+                        .titletog
+                            color: #00816b
+                            font-size: 25px
+                            font-weight: 700
+                        .titlesub
+                            width: 500px
+        .bolimboshliq
+            h2
+                text-align: center
+                font-size: 35px
+                color: #468cde
+            .boshliq
+                display: flex
+                justify-content: center
+                flex-wrap: wrap
+                .boshliqcard
+                    margin: 20px
+                    margin-bottom: 40px
+                    width: 30vh
+                    img
+                        width: 100%
+                    .cardtext
+                        h3
+                            color: #468cde
+                            font-size: 22px
+                            margin-bottom: 5px
+        .web
+            h2
+                text-align: center
+                font-size: 35px
+                color: #468cde
+            .veb
+                .vebw
+                    margin: 30px 0
+                    display: flex
+                    flex-direction: row
+                    &:nth-child(even)
+                        flex-direction: row-reverse
+                    img
+                        width: 300px
+                        border-radius: 20px
+                    .cards
+                        background-position: center
+                        background-size: cover
+                        background-image: url('../../img/web.png')
+                        box-shadow: 1px 1px 15px 2px #00000060
+                        border-radius: 20px
+                        width: 500px
+                        display: flex
+                        flex-direction: column
+                        justify-content: center
+                        margin: 0 20px
+                        padding: 0 40px
+                        .naming
+                            font-size: 25px
+                            margin: 7px 0
+                            font-weight: 700
+                            color: #468cde
+                        .subing
+                            font-size: 18px
+                        .linking
+                            display: flex
+                            justify-content: flex-end
+                            a
+                                text-decoration: none
+                                color: #000
+                                background-color: #fff
+                                padding: 5px 10px
+                                box-shadow: 0px 0px 10px 0px #444

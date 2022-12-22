@@ -1,0 +1,13 @@
+.forma{
+    box-shadow: 1px 1px 10px 1px #444 ;
+}
+.im{
+    width: 13%;
+    margin-right: 5%;
+}
+.iii{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: black 1px solid;
+}

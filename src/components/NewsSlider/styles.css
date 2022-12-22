@@ -1,0 +1,44 @@
+.controls-wrapper {
+  width: 90%;
+}
+
+.carousel-wrapper {
+  width: 80%;
+}
+
+
+.main-div {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25) !important
+}
+
+.Apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sc-bczRLJ {
+  outline: none;
+  background: #FFF !important;
+  color: black !important;
+}
+
+.rec {
+  color: #333333;
+}
+
+.rec-pagination {
+  display: none !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .slick-prev::before,
+  .slick-next::before{
+    font-size: 30px !important;
+  }
+  .slick-list{
+    width: 250px;
+  }
+}

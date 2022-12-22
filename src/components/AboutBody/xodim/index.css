@@ -1,0 +1,8 @@
+.cardd{
+    background-image: url('../../../img/imgrah.png');
+    background-size: cover;
+    background-position: center;
+}
+.cardText{
+    margin-left: 5%;
+}
